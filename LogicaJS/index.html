@@ -17,7 +17,7 @@
                 <button type="button" id="res" value="Verificar" onclick="Calcular()">Resultado</button>
             </div>
             <div id="resultado">
-
+                <input type="text" placeholder="Resultado" id="placeResult" readonly >
             </div>
         </form>
     </div>
@@ -28,7 +28,7 @@
         var res1 = Number(n1.value)
         var res2 = Number(n2.value)
         var res= res1 + res2
-        resultado.innerHTML = `seu resultado é ${res}`
+        placeResult.value = res
        }
        /*window.alert('olá mmundo')
         window.confirm('deseja continuar?')

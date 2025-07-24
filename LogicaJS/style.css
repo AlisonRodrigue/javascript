@@ -5,6 +5,8 @@
 #nn1{
     border: none;
     border-radius: 20px;
+    margin: 10px;
+    
 }
 #nn2{
     border-radius: 20px;
@@ -20,4 +22,9 @@
 #resultado{
     background-color: gray;
     height: 100px;
+}
+#placeResult{
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
 }
