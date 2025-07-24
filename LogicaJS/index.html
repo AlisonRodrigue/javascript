@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica com js</title>
+    <link rel="shortcut icon" href="images/icons8-js-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="calculos">
+            <div class="cal">
+                <h1>Soma de valores</h1>
+                <input type="number" placeholder="Digite" id="nn1"> +
+                <input type="number" placeholder="Digite" id="nn2">
+                <button type="button" id="res" value="Verificar" onclick="Calcular()">Resultado</button>
+            </div>
+            <div id="resultado">
+
+            </div>
+        </form>
+    </div>
+    <script>
+       function Calcular(){
+       var n1 = document.getElementById('nn1')
+        var n2 = document.getElementById('nn2')
+        var res1 = Number(n1.value)
+        var res2 = Number(n2.value)
+        var res= res1 + res2
+        resultado.innerHTML = `seu resultado é ${res}`
+       }
+       /*window.alert('olá mmundo')
+        window.confirm('deseja continuar?')
+        window.prompt('Diga seu nome:')*/ 
+    </script>
+</body>
+</html>

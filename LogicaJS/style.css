@@ -1,0 +1,23 @@
+.cal{
+    background-color: gray;
+    height: 100px;
+}
+#nn1{
+    border: none;
+    border-radius: 20px;
+}
+#nn2{
+    border-radius: 20px;
+    border: none;
+    
+}
+#res{
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: rgb(80, 79, 79);
+}
+#resultado{
+    background-color: gray;
+    height: 100px;
+}
