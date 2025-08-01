@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+div{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}
