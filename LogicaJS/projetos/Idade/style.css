@@ -13,7 +13,21 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
-} 
+}
+input.ano{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.322);
+    border-radius: 15px;
+}
+p{
+    text-align:left;
+}
+p.copy{
+    text-align: center;
+}
+.ano::placeholder{
+    text-align: center;
+}
 div{
     text-align: center;
 }
